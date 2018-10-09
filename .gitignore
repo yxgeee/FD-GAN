@@ -1,0 +1,15 @@
+.DS_Store
+datasets/
+checkpoints/
+scripts/
+torch.egg-info/
+*/**/__pycache__
+*/*.pyc
+*/**/*.pyc
+*/**/**/*.pyc
+*/**/**/**/*.pyc
+*/**/**/**/**/*.pyc
+*/*.so*
+*/**/*.so*
+*/**/*.dylib*
+*~
