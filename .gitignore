@@ -1,5 +1,5 @@
 .DS_Store
-datasets/
+/datasets/
 checkpoints/
 scripts/
 torch.egg-info/
