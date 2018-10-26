@@ -38,7 +38,7 @@ cd datasets/
 - Download these datasets through the links above, and `unzip` them in the same root path.
 
 ## Usage
-As mentioned in the original [paper](), there are three stages for training our proposed framework.
+As mentioned in the original [paper](https://arxiv.org/abs/1810.02936), there are three stages for training our proposed framework.
 
 ### Stage I: reID baseline pretraining
 We use a Siamese baseline structure based on `ResNet-50`. You can train the model with follow commands,
