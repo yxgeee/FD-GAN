@@ -10,6 +10,9 @@ Neural Information Processing Systems (**NIPS**), 2018 (* equal contribution)
 
 Pytorch implementation for our NIPS 2018 work. With the proposed siamese structure, we are able to learn **identity-related** and **pose-unrelated** representations.
 
+### News
+- Baidu Pan links of datasets and pretrained models have been updated.
+
 ## Prerequisites
 - Python 3
 - [Pytorch](https://pytorch.org/) (We run the code under version 0.3.1, maybe lower versions also work.)
@@ -36,9 +39,9 @@ mkdir datasets
 cd datasets/
 ```
 - Download these datasets through the links below, and `unzip` them in the same root path.  
-*Market1501*: [[Google Drive]](https://drive.google.com/open?id=1LS5_bMqv-37F14FVuziK63gz0wPyb0Hh), [[Baidu Pan]](https://pan.baidu.com/s/13C7zcELYzd-5EnjAeDcX9A)  
-*DukeMTMC-reID*: [[Google Drive]](https://drive.google.com/open?id=1Ujtm-Cq7lpyslBkG-rSBjkP1KVntrgSL), [[Baidu Pan]](https://pan.baidu.com/s/1B52P9RzTXv0JLmfmiA3aKg)  
-*CUHK03*: [[Google Drive]](https://drive.google.com/open?id=1R7oCwyMHYIxpRVsYm7-2REmFopP9TSXL), [[Baidu Pan]](https://pan.baidu.com/s/1zH2jcEa_igC7Lzgts4FwVQ)  
+*Market1501*: [[Google Drive]](https://drive.google.com/open?id=1LS5_bMqv-37F14FVuziK63gz0wPyb0Hh) [[Baidu Pan]](https://pan.baidu.com/s/13C7zcELYzd-5EnjAeDcX9A)  
+*DukeMTMC-reID*: [[Google Drive]](https://drive.google.com/open?id=1Ujtm-Cq7lpyslBkG-rSBjkP1KVntrgSL) [[Baidu Pan]](https://pan.baidu.com/s/1B52P9RzTXv0JLmfmiA3aKg)  
+*CUHK03*: [[Google Drive]](https://drive.google.com/open?id=1R7oCwyMHYIxpRVsYm7-2REmFopP9TSXL) [[Baidu Pan]](https://pan.baidu.com/s/1zH2jcEa_igC7Lzgts4FwVQ)  
 
 ## Usage
 As mentioned in the original [paper](https://arxiv.org/abs/1810.02936), there are three stages for training our proposed framework.
@@ -52,9 +55,9 @@ python baseline.py -b 256 -j 4 -d market1501 -a resnet50 --combine-trainval \
 ```
 You can train it on specified GPUs by setting `CUDA_VISIBLE_DEVICES`, and change the dataset name `[market1501|dukemtmc|cuhk03]` after `-d` to train models on different datasets.  
 Or you can download the pretrained baseline model directly following the link below,
-- [Market1501_baseline_model](https://drive.google.com/open?id=1oNLf-gazgfN0EqkdIOKtcJSBx22BuO1-)
-- [DukeMTMC_baseline_model](https://drive.google.com/open?id=1iVXIaXT6WQzKuLD3eDcBZB-3aNeZ6Ivf)
-- [CUHK03_baseline_model](https://drive.google.com/open?id=1jubhvKl_Ny9b89wbX0-u2GhPEeXMLaUQ)
+- Market1501_baseline_model: [[Google Drive]](https://drive.google.com/open?id=1oNLf-gazgfN0EqkdIOKtcJSBx22BuO1-) [[Baidu Pan]](https://pan.baidu.com/s/1H0SNJmaM9GmYN2WE6W60Hw)
+- DukeMTMC_baseline_model: [[Google Drive]](https://drive.google.com/open?id=1iVXIaXT6WQzKuLD3eDcBZB-3aNeZ6Ivf) [[Baidu Pan]](https://pan.baidu.com/s/1CCFjy9We7F9ZHpdTL65vxQ)
+- CUHK03_baseline_model: [[Google Drive]](https://drive.google.com/open?id=1jubhvKl_Ny9b89wbX0-u2GhPEeXMLaUQ) [[Baidu Pan]](https://pan.baidu.com/s/1wtyfhiyxx6jWapMyR5x0Ig)
 
 <a name="stageI"></a>And **test** them with follow commands,
 ```
@@ -79,9 +82,9 @@ You can train it on specified GPUs by setting `CUDA_VISIBLE_DEVICES`. For main a
 
 Other arguments can be viewed in [options.py](https://github.com/yxgeee/FD-GAN/blob/master/fdgan/options.py).
 Also you can directly download the models for stage II,
-- [Market1501_stageII_model](https://drive.google.com/open?id=1kIBuPzz-Ig70dE3rU-5-kyo3nGJP01NS)
-- [DukeMTMC_stageII_model](https://drive.google.com/open?id=1dD1cbg2jo5qhPbkMbsRYACRcVMrm28-o)
-- [CUHK03_stageII_model](https://drive.google.com/open?id=1552oDot-vgA27b-mCspJAuzaOl685koz)
+- Market1501_stageII_model: [[Google Drive]](https://drive.google.com/open?id=1kIBuPzz-Ig70dE3rU-5-kyo3nGJP01NS) [[Baidu Pan]](https://pan.baidu.com/s/1X7T2yJPclZNzY4Bhr_wuuQ)
+- DukeMTMC_stageII_model: [[Google Drive]](https://drive.google.com/open?id=1dD1cbg2jo5qhPbkMbsRYACRcVMrm28-o) [[Baidu Pan]](https://pan.baidu.com/s/17wELt0YdjTVzEbe_gRu60A)
+- CUHK03_stageII_model: [[Google Drive]](https://drive.google.com/open?id=1552oDot-vgA27b-mCspJAuzaOl685koz) [[Baidu Pan]](https://pan.baidu.com/s/1pWmc8fNgC2xjDxM2Gb-pYA)
 
 There are four models in each directory for separate nets.
 
@@ -98,9 +101,9 @@ python train.py --display-port 6006 --display-id 1 \
 You can train it on specified GPUs by setting `CUDA_VISIBLE_DEVICES`.  
 We trained this model on a setting of batchsize 256. If you don't have such or better hardware, you may decrease the batchsize (the performance may also drop).
 Or you can directly download our final model,
-- [Market1501_stageIII_model](https://drive.google.com/open?id=1w8xqopW0icA3VIxZyelI9k-Fb8rRCME7)
-- [DukeMTMC_stageIII_model](https://drive.google.com/open?id=1axBHUcI7JmPbw8Y_mSpMKWIY9FUfFKMI)
-- [CUHK03_stageIII_model](https://drive.google.com/open?id=1q6HkDlDUIV9YNUwAggy-HI9zYQjt7Ihk)
+- Market1501_stageIII_model: [[Google Drive]](https://drive.google.com/open?id=1w8xqopW0icA3VIxZyelI9k-Fb8rRCME7) [[Baidu Pan]](https://pan.baidu.com/s/1JE3Mwh0CxQ5EKkzLr7nEPg)
+- DukeMTMC_stageIII_model: [[Google Drive]](https://drive.google.com/open?id=1axBHUcI7JmPbw8Y_mSpMKWIY9FUfFKMI) [[Baidu Pan]](https://pan.baidu.com/s/1tBF67qZrDmSgxOKENjUdFQ)
+- CUHK03_stageIII_model: [[Google Drive]](https://drive.google.com/open?id=1q6HkDlDUIV9YNUwAggy-HI9zYQjt7Ihk) [[Baidu Pan]](https://pan.baidu.com/s/1fUaNTlOXjtEUQSq217X25Q)
 
 And **test** `best_net_E.pth` by the same way as mentioned in [Stage I](#stageI).
 
