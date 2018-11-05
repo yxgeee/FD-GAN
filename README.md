@@ -36,9 +36,9 @@ mkdir datasets
 cd datasets/
 ```
 - Download these datasets through the links below, and `unzip` them in the same root path.  
-**Market1501**: [Google Drive](https://drive.google.com/open?id=1LS5_bMqv-37F14FVuziK63gz0wPyb0Hh), [Baidu Pan](https://pan.baidu.com/s/13C7zcELYzd-5EnjAeDcX9A)  
-**DukeMTMC**: [Google Drive](https://drive.google.com/open?id=1Ujtm-Cq7lpyslBkG-rSBjkP1KVntrgSL), [Baidu Pan](https://pan.baidu.com/s/1B52P9RzTXv0JLmfmiA3aKg)  
-**CUHK03**: [Google Drive](https://drive.google.com/open?id=1R7oCwyMHYIxpRVsYm7-2REmFopP9TSXL), [Baidu Pan](https://pan.baidu.com/s/1zH2jcEa_igC7Lzgts4FwVQ)  
+*Market1501*: [[Google Drive]](https://drive.google.com/open?id=1LS5_bMqv-37F14FVuziK63gz0wPyb0Hh), [[Baidu Pan]](https://pan.baidu.com/s/13C7zcELYzd-5EnjAeDcX9A)  
+*DukeMTMC*: [[Google Drive]](https://drive.google.com/open?id=1Ujtm-Cq7lpyslBkG-rSBjkP1KVntrgSL), [[Baidu Pan]](https://pan.baidu.com/s/1B52P9RzTXv0JLmfmiA3aKg)  
+*CUHK03*: [[Google Drive]](https://drive.google.com/open?id=1R7oCwyMHYIxpRVsYm7-2REmFopP9TSXL), [[Baidu Pan]](https://pan.baidu.com/s/1zH2jcEa_igC7Lzgts4FwVQ)  
 
 ## Usage
 As mentioned in the original [paper](https://arxiv.org/abs/1810.02936), there are three stages for training our proposed framework.
