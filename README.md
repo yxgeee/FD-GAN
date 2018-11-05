@@ -28,7 +28,7 @@ cd FD-GAN/
 ```
 
 ### Datasets
-We conduct experiments on [Market1501](http://www.liangzheng.org/Project/project_reid.html), [DukeMTMC](https://github.com/layumi/DukeMTMC-reID_evaluation), [CUHK03](http://www.ee.cuhk.edu.hk/~xgwang/CUHK_identification.html) datasets. We need pose landmarks for each dataset during training, so we generate the pose files by [Realtime Multi-Person Pose Estimation](https://github.com/tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation). And the raw datasets have been preprocessed by the code in [open-reid](https://github.com/Cysu/open-reid). 
+We conduct experiments on [Market1501](http://www.liangzheng.org/Project/project_reid.html), [DukeMTMC-reID](https://github.com/layumi/DukeMTMC-reID_evaluation), [CUHK03](http://www.ee.cuhk.edu.hk/~xgwang/CUHK_identification.html) datasets. We need pose landmarks for each dataset during training, so we generate the pose files by [Realtime Multi-Person Pose Estimation](https://github.com/tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation). And the raw datasets have been preprocessed by the code in [open-reid](https://github.com/Cysu/open-reid). 
 Download the prepared datasets following below steps:
 - Create directories for datasets:
 ```
@@ -37,7 +37,7 @@ cd datasets/
 ```
 - Download these datasets through the links below, and `unzip` them in the same root path.  
 *Market1501*: [[Google Drive]](https://drive.google.com/open?id=1LS5_bMqv-37F14FVuziK63gz0wPyb0Hh), [[Baidu Pan]](https://pan.baidu.com/s/13C7zcELYzd-5EnjAeDcX9A)  
-*DukeMTMC*: [[Google Drive]](https://drive.google.com/open?id=1Ujtm-Cq7lpyslBkG-rSBjkP1KVntrgSL), [[Baidu Pan]](https://pan.baidu.com/s/1B52P9RzTXv0JLmfmiA3aKg)  
+*DukeMTMC-reID*: [[Google Drive]](https://drive.google.com/open?id=1Ujtm-Cq7lpyslBkG-rSBjkP1KVntrgSL), [[Baidu Pan]](https://pan.baidu.com/s/1B52P9RzTXv0JLmfmiA3aKg)  
 *CUHK03*: [[Google Drive]](https://drive.google.com/open?id=1R7oCwyMHYIxpRVsYm7-2REmFopP9TSXL), [[Baidu Pan]](https://pan.baidu.com/s/1zH2jcEa_igC7Lzgts4FwVQ)  
 
 ## Usage
