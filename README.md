@@ -28,14 +28,17 @@ cd FD-GAN/
 ```
 
 ### Datasets
-We conduct experiments on [Market1501](https://drive.google.com/open?id=1LS5_bMqv-37F14FVuziK63gz0wPyb0Hh), [DukeMTMC](https://drive.google.com/open?id=1Ujtm-Cq7lpyslBkG-rSBjkP1KVntrgSL), [CUHK03](https://drive.google.com/open?id=1R7oCwyMHYIxpRVsYm7-2REmFopP9TSXL) datasets. We need pose landmarks for each dataset during training, so we generate the pose files by [Realtime Multi-Person Pose Estimation](https://github.com/tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation). And the raw datasets have been preprocessed by the code in [open-reid](https://github.com/Cysu/open-reid). 
+We conduct experiments on [Market1501](http://www.liangzheng.org/Project/project_reid.html), [DukeMTMC](https://github.com/layumi/DukeMTMC-reID_evaluation), [CUHK03](http://www.ee.cuhk.edu.hk/~xgwang/CUHK_identification.html) datasets. We need pose landmarks for each dataset during training, so we generate the pose files by [Realtime Multi-Person Pose Estimation](https://github.com/tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation). And the raw datasets have been preprocessed by the code in [open-reid](https://github.com/Cysu/open-reid). 
 Download the prepared datasets following below steps:
 - Create directories for datasets:
 ```
 mkdir datasets
 cd datasets/
 ```
-- Download these datasets through the links above, and `unzip` them in the same root path.
+- Download these datasets through the links below, and `unzip` them in the same root path.
+Market1501: [Google drive](https://drive.google.com/open?id=1LS5_bMqv-37F14FVuziK63gz0wPyb0Hh), [Baidu pan](https://pan.baidu.com/s/13C7zcELYzd-5EnjAeDcX9A)
+DukeMTMC: [Google drive](https://drive.google.com/open?id=1Ujtm-Cq7lpyslBkG-rSBjkP1KVntrgSL), [Baidu pan](https://pan.baidu.com/s/1B52P9RzTXv0JLmfmiA3aKg)
+CUHK03: [Google drive](https://drive.google.com/open?id=1R7oCwyMHYIxpRVsYm7-2REmFopP9TSXL), [Baidu pan](https://pan.baidu.com/s/1zH2jcEa_igC7Lzgts4FwVQ)
 
 ## Usage
 As mentioned in the original [paper](https://arxiv.org/abs/1810.02936), there are three stages for training our proposed framework.
