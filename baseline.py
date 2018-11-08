@@ -125,7 +125,7 @@ def main(args):
     # Optimizer
     param_groups = [
         {'params': model.module.base_model.parameters(), 'lr_mult': 1.0},
-        {'params': model.module.embed_model.parameters(), 'lr_mult': 10.0}]
+        {'params': model.module.embed_model.parameters(), 'lr_mult': 1.0}]
     optimizer = torch.optim.SGD(param_groups, args.lr, momentum=args.momentum,
                                 weight_decay=args.weight_decay)
     # Trainer
