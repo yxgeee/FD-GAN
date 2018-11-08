@@ -11,6 +11,7 @@ from reid import datasets
 from reid.utils.data.preprocessor import Preprocessor
 from reid.utils.data.sampler import RandomPairSampler
 from reid.utils.data import transforms as T
+from reid.utils.serialization import load_checkpoint
 from reid.evaluators import CascadeEvaluator
 
 from fdgan.options import Options
@@ -23,7 +24,7 @@ def get_data(name, data_dir, height, width, batch_size, workers, pose_aug):
 
     # use combined trainval set for training as default
     train_loader = DataLoader(
-        Preprocessor(dataset.trainval, root=dataset.images_dir, with_pose=True, pose_root=dataset.poses_dir, 
+        Preprocessor(dataset.trainval, root=dataset.images_dir, with_pose=True, pose_root=dataset.poses_dir,
                     pid_imgs=dataset.trainval_query, height=height, width=width, pose_aug=pose_aug),
         sampler=RandomPairSampler(dataset.trainval, neg_pos_ratio=3),
         batch_size=batch_size, num_workers=workers, pin_memory=False)
