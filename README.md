@@ -89,7 +89,7 @@ Also you can directly download the models for stage II,
 There are four models in each directory for separate nets.
 
 **Notice**: 
-If you use `visdom` for visualization by setting `--display-id 1`, you need to open a new window and run the script `python -m visdom.server -port=6006` before running the main program, where `-port` should be consistent as `--display-port`. 
+If you use `visdom` for visualization by setting `--display-id 1`, you need to open a new window and run the script `python -m visdom.server -port=6006` before running the main program, where `-port` should be consistent with `--display-port`. 
 
 ### Stage III: Global finetuning
 Finetune the whole framework by optimizing all parts. You can train the model with follow commands,
