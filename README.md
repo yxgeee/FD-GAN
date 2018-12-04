@@ -3,7 +3,7 @@
 
 <p align="center"><img src='framework.jpg' width="600px"></p>
 
-[[Paper]](https://arxiv.org/abs/1810.02936)
+[[Paper]](http://papers.nips.cc/paper/7398-fd-gan-pose-guided-feature-distilling-gan-for-robust-person-re-identification.pdf)
 
 [Yixiao Ge](mailto:yxge@link.cuhk.edu.hk)\*, [Zhuowan Li](mailto:zli110@jhu.edu)\*, [Haiyu Zhao](mailto:zhaohaiyu@sensetime.com), [Guojun Yin](mailto:gjyin@mail.ustc.edu.cn), [Shuai Yi](mailto:yishuai@sensetime.com), [Xiaogang Wang](mailto:xgwang@ee.cuhk.edu.hk), and [Hongsheng Li](mailto:hsli@ee.cuhk.edu.hk)  
 Neural Information Processing Systems (**NIPS**), 2018 (* equal contribution)
