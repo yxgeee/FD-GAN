@@ -115,7 +115,7 @@ And **test** `best_net_E.pth` by the same way as mentioned in [Stage I](#stageI)
 - generate specified images.
 
 ## Citation
-Please cite our paper if you find the code useful for your research.
+Please cite our paper if you find the code useful for your research. [[bib]](http://papers.nips.cc/paper/7398-fd-gan-pose-guided-feature-distilling-gan-for-robust-person-re-identification/bibtex)
 ```
 @incollection{NIPS2018_7398,
 	title = {FD-GAN: Pose-guided Feature Distilling GAN for Robust Person Re-identification},
