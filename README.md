@@ -119,13 +119,10 @@ Please cite our paper if you find the code useful for your research. [[bib]](htt
 ```
 @incollection{NIPS2018_7398,
 	title = {FD-GAN: Pose-guided Feature Distilling GAN for Robust Person Re-identification},
-	author = {Ge, Yixiao and Li, Zhuowan and Zhao, Haiyu and Yin, Guojun and Yi, Shuai and Wang, Xiaogang and Li, hongsheng},
-	booktitle = {Advances in Neural Information Processing Systems 31},
-	editor = {S. Bengio and H. Wallach and H. Larochelle and K. Grauman and N. Cesa-Bianchi and R. Garnett},
+	author = {Ge, Yixiao and Li, Zhuowan and Zhao, Haiyu and Yin, Guojun and Yi, Shuai and Wang, Xiaogang and Li, Hongsheng},
+	booktitle = {Advances in Neural Information Processing Systems},
 	pages = {1229--1240},
-	year = {2018},
-	publisher = {Curran Associates, Inc.},
-	url = {http://papers.nips.cc/paper/7398-fd-gan-pose-guided-feature-distilling-gan-for-robust-person-re-identification.pdf}
+	year = {2018}
 }
 ```
 
